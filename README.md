@@ -6,6 +6,8 @@ A recent version of **Windows 10** needs to be installed for **ROS** to work. To
 
 `Settings -> System -> About`.
 
+![image](https://user-images.githubusercontent.com/60035881/125947134-d673464b-b874-47a2-8606-1e9d3e6c37ef.png "About your PC")
+
 Check the version and Update Windows 10 (Version 20H2 or later is recommended for optimal performance).
 
 ## 2. Install WSL
@@ -71,7 +73,12 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-To check if the above step was successful, open .bashrc file with **`nano`** command. Paste this command `nano ~/.bashrc`. This command will open the file inside WSL. Go at the bottom. If you find *```source /opt/ros/noetic/setup.bash```* there. **Congratulations**! These steps were successful.
+To check if the above step was successful, open .bashrc file with **`nano`** command. Paste this command `nano ~/.bashrc`. This command will open the file inside WSL. Go at the bottom. If you find *```source /opt/ros/noetic/setup.bash```* there. 
+
+![image](https://user-images.githubusercontent.com/60035881/125947934-52285a5b-c1d8-4607-b3c2-06fb20801846.png "Like this!")
+
+
+**Congratulations**! These steps were successful.
 
 If not, then, type it manually there and save it `ctrl+x -> y -> Enter`.
 
@@ -82,6 +89,9 @@ Open *three new WSL bash prompts*.
 cd
 roscore
 ```
+
+![image](https://user-images.githubusercontent.com/60035881/125948286-4eaad524-8f5a-4699-838e-0d926a82e1f4.png "It will look like this")
+
 
 * In the second WSL bash, here, we will create a new python file with the name **`publish.py`** with "touch" and edit it using the **`nano`** command.
 Paste the following commands:
@@ -219,6 +229,10 @@ catkin_make
 Now, Add the following commands in *.bashrc* manually or using **`echo`** command (as mentioned in step-4):
 * ```export TURTLEBOT3_MODEL=burger```
 * ```source ~/catkin_ws/devel/setup.bash```
+* ```export SVGA_VGPU10=0```
+
+![image](https://user-images.githubusercontent.com/60035881/125949121-ba571b92-bebe-493f-aa67-b4f13d1df281.png "It should look like this!")
+
 
 Test your **Turtlebot** and **Gazebo** setup by launching a sample launch file using the following command:
 ```bash
