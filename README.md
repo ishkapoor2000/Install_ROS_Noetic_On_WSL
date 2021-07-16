@@ -164,6 +164,7 @@ Finally, launch VcXsrv from the start menu. You need to change the following two
 * When prompted by the Windows Firewall make sure that you enable access for *both private and public networks* - unless you are 100% sure that you only want to use the **x server** when connected to private networks.
 
 ***Note***: These settings might look different depending on when in the future you have downloaded VcXsrv.
+***Warning***: Everytime you re-start your PC, you need to check and un-check the options again (mentioned above). The solution for this is coming soon!
 
 ## 7. Running Applications with Graphical Output (GUI)
 
@@ -242,3 +243,5 @@ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+Note: Feel free to create an issue or pull request if you want to correct or add anything useful to this repository.
