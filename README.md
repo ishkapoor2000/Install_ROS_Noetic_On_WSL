@@ -12,6 +12,8 @@ Check the version and Update Windows 10 (Version 20H2 or later is recommended fo
 Install WSL on your system via [MicrosoftStore](https://www.microsoft.com/en-in/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) or via [this](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel) (follow *Step 4 - Download the Linux kernel update package*).
 
 Now, open **Turn Windows features on or off**
+
+
 ![image](https://user-images.githubusercontent.com/60035881/125946572-0f12d2b6-61d8-4e67-b834-b4690dfca5ed.png "Make sure Windows Subsystem for Linux is checked")
 
 Make sure that *Windows Subsystem for Linux* is **checked**. If not, then do it manually.
