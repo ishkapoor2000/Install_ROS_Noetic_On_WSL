@@ -241,7 +241,7 @@ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
 #### If you see the Turtlebot in the gazebo environment, then my friend, the installation was successful! Take a break and enjoy a cup of coffee.
 
-You can give a quick read to the blog I've written on the same on [Medium]().
+You can give a quick read to the blog I've written on the same on [Medium](https://ishkapoor.medium.com/how-to-install-ros-noetic-on-wsl2-9bbe6c00b89a).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
