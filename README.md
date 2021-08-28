@@ -1,4 +1,4 @@
-# Install_ROS_Noetic_On_WSL
+# Install ROS Noetic on WSL2
 ### Install ROS Noetic using WSL
 
 ## 1. Update Windows 10
