@@ -156,7 +156,7 @@ source ~/.bashrc
 ```
 **OR**
 
-You can simply add `DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0` inside *.bashrc* file (as mentioned in step-4).
+You can simply add `export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0` inside *.bashrc* file (as mentioned in step-4).
 
 Finally, launch VcXsrv from the start menu. You need to change the following two settings:
 * Native OpenGL needs to be **unchecked**. Otherwise, applications such as *rviz* do not run as expected.
